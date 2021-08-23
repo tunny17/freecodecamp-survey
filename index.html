@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+      <title id="title">Survey Form</title>
+    </head>
+  <body>
+    <main   id="body">
+
+        <section  id="header">
+            <h1 id="h1-text">freeCodeCamp survey form</h1>
+            <p  id="description">this survey is to determine the human nature at a faster pace</p>
+        </section>
+
+    <section  class="main">
+    <form id="survey-form"  action="name">
+      <label for="name" id="name-label">Name:</label><br>
+      <input type="name"  placeholder="enter your name"  id="name" required>
+    </form>
+     <form id="survey-form"  action="email">
+       <label for="email" id="email-label">Email:</label><br>
+      <input type="email"  placeholder="enter you email"  id="email" required>
+    </form>
+     <form id="survey-form"  action="number">
+       <label for="number"  id="number-label">Number:</label><br>
+      <input type="number"  placeholder="enter you number"  id="number" required>
+    </form>
+       <form id="survey-dropdown"  action="number">
+         <p>Which best describes your personality?</p>
+      <select id="dropdown" name="role" class="form-control" required="">
+        <option disabled="" selected="" value="">Select current role</option>
+        <option value="sad">sad</option>
+        <option value="happy">happy</option>
+        <option value="not-energetic">not-energetic</option>
+        <option value="preferNo">prefer not to say</option>
+        <option value="other">other</option>
+      </select>
+       </form>
+         <form id="survey-radio"  action="number">
+          <p  class="earth">Do you enjoy living on earth?</p>
+         <input type="radio" name="answer"  value="yes"  id="option-1">
+          <label for="option-1">yes</label>
+          <br>
+           <input type="radio" name="answer"  value="no"  id="option-2">
+          <label for="option-2">no</label>
+       </form>
+          <p>What do you want to do before you die?</p>
+       <label>
+         <input name="prefer" id="paint" type="checkbox" value="swim"><span>swim</span>
+      </label>
+       <label>
+         <input name="prefer" id="paint" type="checkbox" value="sky-jumping"><span>sky-jumping</span>
+      </label>
+      
+       <label>
+         <input name="prefer" id="paint" type="checkbox" value="marriage"><span>marriage</span>
+      </label>
+       <label>
+         <input name="prefer" id="paint" type="checkbox" value="seks"><span>seks</span>
+      </label>
+      <br>
+    <label for="comments"><p>any comments or suggestions?</p></label>
+      <textarea name="comment"  id="comment"  cols="100" rows="7" placeholder="say something..."></textarea>
+    <br></br>
+    <input type="submit"  value="Submit" id="submit">
+      </section>
+
+    </main>
+  </body>
+  
+  
+  
+</html>

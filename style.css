@@ -1,0 +1,117 @@
+
+/************************* the codeblock's header *****************************/
+#header {
+    line-height: 10px;
+}
+#h1-text  {
+    text-align: center;
+    font-size: 50px;
+}
+#description    {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+/************************************ the codeblock's body *************************************/
+
+.main   {
+    border: 300px;
+    max-width: 800px;
+    width: 100%;
+    background-color: rgb(38, 38, 71);
+    margin: 0 25%;
+    padding-top: 20px;
+}
+body    {
+    background: rgb(115, 115, 243);
+    margin: 0;
+    padding: 0;
+}
+#survey-form    {
+    font-weight: bold;
+    color: cornsilk;
+    line-height: 30px;
+    margin-top: 20px;
+}
+#survey-dropdown    {
+    font-weight: bold;
+    color: cornsilk;
+    line-height: 5px;
+    margin-top: 20px;
+}
+#survey-radio   {
+    font-weight: bold;
+    color: cornsilk;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+label   {
+    margin: 0 30px;
+}
+p   {
+    margin-left: 20px;
+    color: cornsilk;
+}
+.earth  {
+    margin: 0;
+    padding: 6px;
+}
+span    {
+    color: ivory;
+}
+
+/***************************** the styling for each borders *****************************/
+
+
+#name   {
+    padding-left: 30px;
+    border-radius: 7px;
+    height: 40px;
+    max-width: 725px;
+    width: 100%;
+    margin: 0 ;
+    margin-left: 20px;
+}
+#email  {
+    padding-left: 30px;
+    border-radius: 7px;
+    height: 40px;
+    width: 100%;
+    max-width: 725px;
+    margin-left: 20px;
+}
+#number {
+    padding-left: 30px;
+    border-radius: 7px;
+    height: 40px;
+    width: 100%;
+    max-width: 725px;
+    margin-left: 20px;
+}
+#dropdown   {
+    padding-left: 30px;
+    margin-left: 20px;
+    height: 40px;
+    width: 100%;
+    max-width: 760px;
+    border-radius: 7px;
+}
+#option-1   {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+#comment    {
+    margin-left: 20px;
+    
+}
+#submit {
+    background: rgb(96, 170, 96);
+    margin: 20px;
+    text-align: center;
+    width: 755px;
+    border: hidden;
+    padding: 12px;
+    color: honeydew;
+}
